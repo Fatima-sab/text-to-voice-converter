@@ -1,4 +1,4 @@
-import streamlit as st
+oimport streamlit as st
 from gtts import gTTS
 import os
 
@@ -6,7 +6,7 @@ import os
 st.title("Text to Speech Converter")
 
 # Text input from the user
-text_input = st.text_area("Enter text to convert to audio:")
+text_input = st.text_area("hello it is a text to voice convertrer:")
 
 # Language option
 language = st.selectbox("Select language:", ["en", "es", "fr", "de", "it"])
