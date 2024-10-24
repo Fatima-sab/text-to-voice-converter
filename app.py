@@ -1,4 +1,3 @@
-pip install streamlit gTTS
 import streamlit as st
 from gtts import gTTS
 import os
